@@ -8,7 +8,7 @@ This project was created to simulate the Dunder Mifflin Scranton accountability 
 goes to NBC and the cast and crew of The Office.
 
 # Usage
-Clone this repository and edit config.py to include a valid gmail and password, a recipient email address for the doomsday email, 
+Clone this repository and edit config.py to include a valid gmail and password, a recipient email address for the doomsday email, and
 your preffered host IP and port number for Flask. Run accountability_booster.py. HTTP requests can be sent to two endpoints to add strikes and retrieve office stats.
 Each mistake made in the office is one strike, five strikes in one day is a home run, one home run and you're out! When one home run
 is reached, an email will automatically be sent at 5PM containing the contents of the email_attachment_docs folder which should contian
